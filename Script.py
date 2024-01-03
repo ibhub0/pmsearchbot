@@ -9,7 +9,7 @@ class script(object):
     HELP_TXT = """<b>ʜᴇʏ {}
 ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>"""
 
-        ABOUT_TXT = """<b>
+    ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
  👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/rajbharsaheb'>ʀᴀᴊʙʜᴀʀ ꜱᴀʜᴇʙ</a>
  📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
@@ -18,7 +18,7 @@ class script(object):
  📡 ʜᴏsᴛᴇᴅ ᴏɴ  : <a href='https://render.com/'>Render</a>
  🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ3.0 [sᴛᴀʙʟᴇ]</b>"""
 
-        SOURCE_TXT = """
+    SOURCE_TXT = """
 <b>Tʜɪꜱ Bᴏᴛ Iꜱ NOT Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
 """
 
