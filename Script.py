@@ -103,7 +103,8 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-        STATUS_TXT = """<b>🚀 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
+
+    STATUS_TXT = """<b>🚀 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
 🚀 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
 🚀 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
 🚀 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code>
