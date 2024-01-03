@@ -127,12 +127,12 @@ Tʜᴇ Bᴏᴛ Dᴏᴇꜱ Nᴏᴛ Oᴡɴ Aɴʏ Oꜰ Tʜᴇꜱᴇ Cᴏɴᴛᴇɴ�
 
 🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='t.me/rajbharsaheb'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
     
-        LOG_TEXT_G = """✦ɴᴇᴡ_ɢʀᴏᴜᴘ✦
+    LOG_TEXT_G = """✦ɴᴇᴡ_ɢʀᴏᴜᴘ✦
 ɢʀᴏᴜᴘ = {}(<code>{}</code>)
 ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs = <code>{}</code>
 ᴀᴅᴅᴇᴅ ʙʏ - {}"""
 
-        LOG_TEXT_P = """✦ɴᴇᴡ_ᴜsᴇʀ✦
+    LOG_TEXT_P = """✦ɴᴇᴡ_ᴜsᴇʀ✦
 ɪᴅ - <code>{}</code>
 ɴᴀᴍᴇ - {}"""
 
@@ -211,7 +211,7 @@ Tʜᴇ Bᴏᴛ Dᴏᴇꜱ Nᴏᴛ Oᴡɴ Aɴʏ Oꜰ Tʜᴇꜱᴇ Cᴏɴᴛᴇɴ�
 
 ᴍᴇssᴀɢᴇ <b>: {}</b>"""
 
-        CAPTION = """
+    CAPTION = """
 <b>📂 ғɪʟᴇ ɴᴀᴍᴇ : </b><a href="https://t.me/searchmoviesname">{file_name}</a><b> 
 
 अरे भाई बैकअप चैनल तो ज्वाइन कर ले📥 
@@ -277,7 +277,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /pbatch - <code>Jᴜsᴛ ʟɪᴋᴇ /batch, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇs ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴs.</code>
 • /plink - <code>Jᴜsᴛ ʟɪᴋᴇ /link, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴ.</code>"""
 
-        RESTART_TXT = """
+    RESTART_TXT = """
 <b>✦ ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ ✦
 
 📅 ᴅᴀᴛᴇ : <code>{}</code> \n
