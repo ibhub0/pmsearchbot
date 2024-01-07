@@ -255,7 +255,7 @@ async def start(client, message):
         chat_id = int("-" + file_id.split("-")[1])
         userid = message.from_user.id if message.from_user else None
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}")
-        k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕ɴᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n ᴀʟʟ ғɪʟᴇs ɪɴ ᴀ sɪɴɢʟᴇ ᴄʟɪᴄᴋ!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>ɴᴏᴛᴇ: ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ ɪɴ 5 ᴍɪɴs ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ. sᴀᴠᴇ ᴛʜᴇ ʟɪɴᴋ sᴏᴍᴇᴡʜᴇʀᴇ ᴇʟsᴇ</i></b>", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕ɴᴀᴍᴇ ➠ : <code>{files.file_name}</code> ᴀʟʟ ғɪʟᴇs ɪɴ ᴀ sɪɴɢʟᴇ ᴄʟɪᴄᴋ!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>ɴᴏᴛᴇ: ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ ɪɴ 5 ᴍɪɴs ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ. sᴀᴠᴇ ᴛʜᴇ ʟɪɴᴋ sᴏᴍᴇᴡʜᴇʀᴇ ᴇʟsᴇ</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ📥', url=g)
