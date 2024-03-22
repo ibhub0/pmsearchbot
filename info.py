@@ -42,11 +42,11 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001885372079')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002085518876')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
-NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
+NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://RAJBHAR:RAJBHAR@cluster0.pro6d6k.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "crezyboter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'YourDemandZone')
 
 # Others
@@ -55,7 +55,7 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'sharelinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '8709f8b09c3f169265a6935c4587498c745125d8')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
-MAX_B_TN = environ.get("MAX_B_TN", "10")
+MAX_B_TN = environ.get("MAX_B_TN", "12")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/searchmoviesname')
@@ -94,8 +94,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://tgb-rajbharsaheb.koyeb.app/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://tgb-rajbharsaheb.koyeb.app/".format(FQDN, PORT)
+URL = "https://rbtg-ddabfd6b090e.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://rbtg-ddabfd6b090e.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -110,9 +110,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://tgb-rajbharsaheb.koyeb.app/".format(FQDN)
+    URL = "https://rbtg-ddabfd6b090e.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://tgb-rajbharsaheb.koyeb.app/".format(FQDN)
+    URL = "https://rbtg-ddabfd6b090e.herokuapp.com/".format(FQDN)
 
 
 
