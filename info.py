@@ -51,7 +51,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'YourDemandZone')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'bzearn.com)
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'bzearn.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '7535dbd3c4625f02a3a3b1dd6b7b109fb1e5def8')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
