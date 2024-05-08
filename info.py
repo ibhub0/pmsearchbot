@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6012593364:AAFac7-DcX-swqg2vxJKVnCvg20Hud-
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/660ccc4268e675b9c0118.jpg https://graph.org/file/70fdc6e8327287b59f329.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/7f31161bb4a522d9e6481.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/ae810754f17b61fe5750b.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -38,35 +38,35 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001885372079')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002085518876')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://RAJBHAR:RAJBHAR@cluster0.pro6d6k.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "crezyboter")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'YourDemandZone')
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', '')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'bzearn.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '7535dbd3c4625f02a3a3b1dd6b7b109fb1e5def8')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'onepagelink.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f646357aa129cfbd7eb59bcba428096ab54ca950')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "12")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/searchmoviesname')
-SPRT_GRP = environ.get('SPRT_GRP', 'https://t.me/rajbharmvsupport')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movies_island8')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/mvisland/1683')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+BJfqwUjbkQFmNTU1')
+SPRT_GRP = environ.get('SPRT_GRP', 'https://t.me/+BJfqwUjbkQFmNTU1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/infinity_botzz')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/links_tutorialbypp/36')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+fCQll5ABpTc3ZTU1')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/links_tutorialbypp/36')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001930913574'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/rajbharmvsupport')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
