@@ -4,18 +4,18 @@ class script(object):
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ
 
-ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/rajbharsaheb">ʀᴀᴊʙʜᴀʀ ꜱᴀʜᴇʙ</a></b> 😏</b>"""
+ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="telegram.me/mpbotzsupport">ɪɴꜰɪɴɪᴛʏ ʙᴏᴛᴢ</a></b> 😏</b>"""
     
     HELP_TXT = """<b>ʜᴇʏ {}
 ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
- 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/rajbharsaheb'>ʀᴀᴊʙʜᴀʀ ꜱᴀʜᴇʙ</a>
+ 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='telegram.me/mpbotzsupport'>ɪɴꜰɪɴɪᴛʏ ʙᴏᴛᴢ</a>
  📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
  📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
  ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
- 📡 ʜᴏsᴛᴇᴅ ᴏɴ  : <a href='https://render.com/'>Render</a>
+ 📡 ʜᴏsᴛᴇᴅ ᴏɴ  : <a href='https://heroku.com/'>ʜᴇᴇᴏᴋᴜ</a>
  🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ3.0 [sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """
@@ -41,7 +41,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/searchmoviesname)</code>
+<code>[Button Text](buttonurl:https://t.me/hd_movies_hub01)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -125,7 +125,7 @@ Iꜰ Aɴʏᴛʜɪɴɢ Iꜱ Aɢᴀɪɴꜱᴛ Lᴀᴡ Pʟᴇᴀꜱᴇ Cᴏɴᴛᴀ
 ɪꜰ Yᴏᴜ Bᴇʟɪᴇᴠᴇ Tʜɪꜱ Bᴏᴛ ɪꜱ Vɪᴏʟᴀᴛɪɴɢ Yᴏᴜʀ Iɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ Pʀᴏᴘᴇʀᴛʏ, Cᴏɴᴛᴀᴄᴛ Tʜᴇ Rᴇꜱᴘᴇᴄᴛɪᴠᴇ Cʜᴀɴɴᴇʟꜱ Fᴏʀ Rᴇᴍᴏᴠᴀʟ.
 Tʜᴇ Bᴏᴛ Dᴏᴇꜱ Nᴏᴛ Oᴡɴ Aɴʏ Oꜰ Tʜᴇꜱᴇ Cᴏɴᴛᴇɴᴛꜱ, Iᴛ Oɴʟʏ Iɴᴅᴇx Tʜᴇ Fɪʟᴇꜱ Fʀᴏᴍ Tᴇʟᴇɢʀᴀᴍ. 
 
-🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='t.me/rajbharsaheb'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
+🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='t.me/talk_mrs_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
     
     LOG_TEXT_G = """✦ɴᴇᴡ_ɢʀᴏᴜᴘ✦
 ɢʀᴏᴜᴘ = {}(<code>{}</code>)
@@ -169,9 +169,8 @@ Tʜᴇ Bᴏᴛ Dᴏᴇꜱ Nᴏᴛ Oᴡɴ Aɴʏ Oꜰ Tʜᴇꜱᴇ Cᴏɴᴛᴇɴ�
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ʀᴀᴊʙʜᴀʀ sᴀʜᴇʙ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @rajbharsaheb
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/rajbharsaheb'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : ɪɴꜰɪɴɪᴛʏ ʙᴏᴛᴢ
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/talk_mrs_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -212,13 +211,13 @@ Tʜᴇ Bᴏᴛ Dᴏᴇꜱ Nᴏᴛ Oᴡɴ Aɴʏ Oꜰ Tʜᴇꜱᴇ Cᴏɴᴛᴇɴ�
 ᴍᴇssᴀɢᴇ <b>: {}</b>"""
 
     CAPTION = """
-<b>📂 ғɪʟᴇ ɴᴀᴍᴇ : </b><a href="https://t.me/searchmoviesname">{file_name}</a><b> 
+<b>📂 ғɪʟᴇ ɴᴀᴍᴇ : </b><a href="https://t.me/infinity_botzz">{file_name}</a><b> 
 
 अरे भाई बैकअप चैनल तो ज्वाइन कर ले📥 
 पता न कब कॉपीराइट आ जाए 👇
 ========== • ✠ • ==========
-▫️ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ:  <a href="https://t.me/movies_island8">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-▫️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ :  <a href="https://t.me/Searchmoviesname">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+▫️ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ:  <a href="https://t.me/hd_movies_hub01">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+▫️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ :  <a href="https://t.me/+5Ynakjs3OZ5lZDI1">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 ========== • ✠ • ==========
 </b>"""
     
@@ -226,7 +225,7 @@ Tʜᴇ Bᴏᴛ Dᴏᴇꜱ Nᴏᴛ Oᴡɴ Aɴʏ Oꜰ Tʜᴇꜱᴇ Cᴏɴᴛᴇɴ�
     
     TELE_TXT = """<b>ʜᴇʟᴘ: ᴛᴇʟᴇɢʀᴀᴘʜ ᴅᴏ ᴀꜱ ʏᴏᴜ ᴡɪꜱʜ ᴡɪᴛʜ ᴛᴇʟᴇɢʀᴀ.ᴘʜ ᴍᴏᴅᴜʟᴇ! 
   
- ᴜꜱᴀɢᴇ: /telegraph - ꜱᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇ ᴜɴᴅᴇʀ (5ᴍʙ) 
+ ᴜꜱᴀɢᴇ: /tgp - ꜱᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇ ᴜɴᴅᴇʀ (5ᴍʙ) 
   
  ɴᴏᴛᴇ: 
  ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ɢᴏᴜᴘꜱ ᴀɴᴅ ᴘᴍꜱ 
