@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '9976721'))
 API_HASH = environ.get('API_HASH', '3ef17a8cdb938335bd8ba292e6d816aa')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6012593364:AAFac7-DcX-swqg2vxJKVnCvg20Hud-q_OM")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6012593364:AAFac7-DcX-swqg2vxJVnCvg20Hud-q_OM")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -50,10 +50,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', '')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'onepagelink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f646357aa129cfbd7eb59bcba428096ab54ca950')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+VERIFY = bool(environ.get('VERIFY', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b2da06188bd355e103d16ab1b56db314709740df')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "12")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
